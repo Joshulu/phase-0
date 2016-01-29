@@ -1,4 +1,4 @@
-![SiteMap](/../imgs/WebMap.png)
+![SiteMap](/../imgs/Site-map.jpg=1920x1080)
 
 What are the 6 Phases of Web Design?
 
