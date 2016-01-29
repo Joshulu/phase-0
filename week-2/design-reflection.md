@@ -1,4 +1,4 @@
-![SiteMap](../WebMap.png)
+![SiteMap](/../imgs/WebMap.png)
 
 What are the 6 Phases of Web Design?
 
