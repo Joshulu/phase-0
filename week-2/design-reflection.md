@@ -1,4 +1,10 @@
-![SiteMap](/../imgs/Site-map.jpg=1920x1080)
+![SiteMap](imgs/Site-map.jpg)
+
+![SiteMap] (imgs/Site-map.jpg) is how I have it typed in (without the space between the brackets and parentheses.
+
+The reflection is in week-2/design-reflection.md
+
+the img is in week-2/imgs/Site-map.jpg
 
 What are the 6 Phases of Web Design?
 
@@ -97,3 +103,5 @@ Which parts of the challenge did you find tedious?
 Coming from an art background it was tedious to trod through all this design stuff.
 But is was a good refresher and is good to relearn along with all the tech stuff we're
 learning.
+
+I also have not enjoyed finding no help with my markdown problem.  I plan to get into office hours next week to iron it out.  I've looked everywhere* online and found nothing that helps.  *spent a couple hours of looking at syntax and relative paths to no avail.
