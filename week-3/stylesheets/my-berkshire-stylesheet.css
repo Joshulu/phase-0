@@ -1,0 +1,96 @@
+html{
+  color: navy;
+  background-color: white;
+}
+
+header{
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid black;
+  }
+h1 span{
+  font-size:1.5em;
+}
+h1{
+  margin: 10px;
+}
+h4{
+  margin: -20px;
+}
+
+a{
+  color: purple;
+}
+
+a:visited{
+  color: red;
+}
+
+div {
+  word-wrap: normal;
+}
+
+li{
+  padding: 0px 0px 25px 0px;
+}
+
+li span {
+  font-size: .5em;
+  list-style: none;
+  display: block;
+}
+
+.right {
+  float: right;
+  width: 49%;
+}
+
+.left {
+  float: left;
+  width: 49%;
+}
+
+img{
+  display:block;
+  align: center;
+  margin: auto;
+}
+
+.quote{
+  clear: both;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: .75em;
+}
+
+footer{
+  border-top: 1px solid black;
+  text-align: left;
+}
+
+
+/*
+-What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+You need to know the path to the actual file.  Beyond that you need to know how to give the <link> tag what it needs. I havn't actually researched what rel or type means.
+
+-What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+It was very difficult.  Trial and error.  Using various forms of positioning until it worked.  I actually deleted a bunch of stuff and started over with what made sense.  They used a table, but I just set the width to 49% on each column so when I zoom, both columns stay present.
+
+-What CSS did you use to modify the element style (like size, color, etc.)
+
+I changed the width of a few, changed color of text and links.  Background color.
+
+-Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+Yeah we only added three.  .Right and .left, because they were the larger portion of the assignment.  Both were in the same div and we needed to affect them differently.  And we added .quote for seperating different footer elements.
+
+-When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I think ours was better, but just barely.  As far as current best practices we are the better one in that we let css handle the formating.  Our code was cleaner at least in html, but our css was a bit sloppy.  Even so, the berkshire website was just a stream of hard to read tables and divs, constantly adjusting font sizes, and branching down so deep that it was hard to see where we were.
+
+*/
+
+
