@@ -1,20 +1,20 @@
 ![3.4-3.1](./imgs/3.4-3.1Colors.PNG)
 
-![3.4-3.2](/imgs/3.4-3.2Column.PNG)
+![3.4-3.2](./imgs/3.4-3.2Column.PNG)
 
-![3.4-3.3](/imgs/3.4-3.3Row.PNG)
+![3.4-3.3](./imgs/3.4-3.3Row.PNG)
 
-![3.4-3.4](/imgs/3.4-3.4Equidistant.PNG)
+![3.4-3.4](./imgs/3.4-3.4Equidistant.PNG)
 
-![3.4-3.5](/imgs/3.4-3.5Squares.PNG)
+![3.4-3.5](./imgs/3.4-3.5Squares.PNG)
 
-![3.4-3.6](/imgs/3.4-3.6Footer.PNG)
+![3.4-3.6](./imgs/3.4-3.6Footer.PNG)
 
-![3.4-3.7](/imgs/3.4-3.7Header.PNG)
+![3.4-3.7](./imgs/3.4-3.7Header.PNG)
 
-![3.4-3.8](/imgs/3.4-3.8Sidebar.PNG)
+![3.4-3.8](./imgs/3.4-3.8Sidebar.PNG)
 
-![3.4-3.9](/imgs/3.4-3.9GetCreative.PNG)
+![3.4-3.9](./imgs/3.4-3.9GetCreative.PNG)
 
 
 -How can you use Chrome's DevTools inspector to help you format or position elements?
