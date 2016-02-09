@@ -17,6 +17,13 @@ puts "Well how about #{bigger_number}? It's bigger AND better!"
 
 =begin
 
+links:
+
+https://github.com/Joshulu/phase-0/blob/master/week-4/address/my_solution.rb
+
+https://github.com/Joshulu/phase-0/blob/master/week-4/math/my_solution.rb
+
+
 How do you define a local variable?
 
 Define a variable, but inside of a method.:
