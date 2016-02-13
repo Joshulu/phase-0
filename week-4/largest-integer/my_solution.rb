@@ -13,16 +13,25 @@
 # Your Solution Below
 def largest_integer(list_of_nums)
   # Your code goes here!
-  list_of_nums.sort!
-  puts list_of_nums[-1]
+  
+  list_of_nums.each do
+    if list_of_nums[0] > list_of_nums[-1]
+      list_of_nums.pop
+    else
+      list_of_nums.delete_at(0)
+    end
+    if list_of_nums.length > 0
+      list_of_nums.each do
+        if list_of_nums[0] > list_of_nums[-1]
+          list_of_nums.pop
+        else
+          list_of_nums.delete_at(0)
+        end
+      end
+    end
+  end
+  puts list_of_nums
 end
 
-largest_integer([30, 10, 400, 40])
-
-=begin
-same as before, could add new array and store sorted list
-in that array instead of writing over it.  But, as before,
-they should be seperate arrays (one is inside the method,
-and the other is outside; list_of_nums is already temporary
-place holder.
-=end
+list = [30, 10, 400, 40]
+largest_integer(list)

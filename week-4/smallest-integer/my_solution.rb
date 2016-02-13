@@ -13,19 +13,25 @@
 # Your Solution Below
 def smallest_integer(list_of_nums)
   # Your code goes here!
-  list_of_nums.sort!
-  puts list_of_nums[0]
+  
+  list_of_nums.each do
+    if list_of_nums[0] < list_of_nums[-1]
+      list_of_nums.pop
+    else
+      list_of_nums.delete_at(0)
+    end
+    if list_of_nums.length > 0
+      list_of_nums.each do
+        if list_of_nums[0] < list_of_nums[-1]
+          list_of_nums.pop
+        else
+          list_of_nums.delete_at(0)
+        end
+      end
+    end
+  end
+  puts list_of_nums
 end
 
-smallest_integer([30, 10, 400, 40])
-
-=begin
-to make it so the original array isn't altered
-I could instead write line 16 as:
-
-new_list = list_of_nums.sort
-
-and line 17 as:
-
-puts new_list[0]
-=end
+list = [30, 10, 400, 40]
+smallest_integer(list)
