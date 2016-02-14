@@ -35,3 +35,17 @@ end
 
 list = [30, 10, 400, 40]
 smallest_integer(list)
+
+
+
+=begin
+refactored:
+
+def smallest_integer(list_of_nums)
+  new_list = list_of_nums.sort
+  puts new_list[0]
+end
+
+=end
+
+
