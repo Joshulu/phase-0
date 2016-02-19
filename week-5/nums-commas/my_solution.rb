@@ -63,14 +63,12 @@ def seperate_comma(any_int)
       counter += 4
       digit_place -= 4
     end
-    p int_arr.join
     return int_arr.join
   # else
     # return int_s
   # end
 end
 
-seperate_comma(9999999999)
 # 2. Refactored Solution
 
 
