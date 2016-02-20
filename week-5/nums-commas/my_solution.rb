@@ -49,6 +49,7 @@ notes: 3 digit numbers do not produce commas...add IF flow control
 
 # 1. Initial Solution
 def seperate_comma(any_int)
+  
   int_s = any_int.to_s
   int_arr = int_s.split(//)
   counter = 4
