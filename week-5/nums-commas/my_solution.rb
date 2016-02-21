@@ -49,8 +49,21 @@ notes: 3 digit numbers do not produce commas...add IF flow control
 
 # 1. Initial Solution
 =begin
-this was my initial solution which does indeed add commas in the appropriate places for any sized integer (at least as large as holding down any number key for several seconds) but for some reasons the tests fail it.  I wrote it in about 45 minutes, but kept tweaking and testing it over and over for about 2 or more hours.  I will attempt rewriting it below to more closely follow week 5 recap from Andrew Larson (more as a step by step process of flow-control and writing to pass the tests)
+this was my initial solution which does indeed add commas in the appropriate
+
+places for any sized integer (at least as large as holding down any numbers
+
+key for several seconds) but for some reasons the tests fail it.  I wrote it in
+
+about 45 minutes, but kept tweaking and testing it over and over for about 2 or
+
+more hours.  I will attempt rewriting it below to more closely follow week 5
+
+recap from Andrew Larson (more as a step by step process of flow-control and writing
+
+to pass the tests)
 =end
+
 # initial solution (not passing tests, functional)
 # ****spelling error, entire code now passes tests****used 'seperate' not 'separate'
 =begin
@@ -93,7 +106,6 @@ end
 
 # 2. Refactored Solution
 
-# I think I did this step inadvertantly while trying to get my initial solution to work, so I think that will be good enough.
 
 def separate_comma(any_int)
   int_arr = any_int.to_s.split(//)
