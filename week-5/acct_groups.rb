@@ -120,14 +120,111 @@ acct_groups(cohort)
 # 4. Refactor
 
 
+def acct_groups_2(list)
+  length = list.length
+  rand_list = list.shuffle
+  groups = []
+
+  d_by_5 = length / 5
+  d_by_4 = length / 4
+  d_by_3 = length / 3
+  
+  if length % 5 == 0
+    # split off in groups of 5
+    d_by_5.times do 
+      groups.push(rand_list[0..4])
+      5.times do
+        rand_list.delete_at(0)
+      end
+    end
+    
+  elsif length % 5 == 4
+    # ^^^ remainder assigned to last group
+    d_by_5.times do
+      groups.push(rand_list[0..4])
+      5.times do
+        rand_list.delete_at(0)
+      end
+    end
+    groups.push(rand_list[0..3])
+    
+  elsif length % 5 == 3
+    # ^^^ remainder assigned to last group
+    d_by_5.times do
+      groups.push(rand_list[0..4])
+      5.times do
+        rand_list.delete_at(0)
+      end
+    end
+    groups.push(rand_list[0..2])
+    
+  else
+    
+    if length % 4 == 0
+      # split off in groups of 4
+      d_by_4.times do 
+        groups.push(rand_list[0..3])
+        4.times do
+          rand_list.delete_at(0)
+        end
+      end
+
+    elsif length % 4 == 3
+      # ^^^, remainder assigned to last group
+      d_by_4.times do
+        groups.push(rand_list[0..3])
+        4.times do
+          rand_list.delete_at(0)
+        end
+      end
+      groups.push(rand_list[0..2])
+    
+    else
+      if length % 3 == 0
+        # split off in groups of 3
+        d_by_3.times do 
+          groups.push(rand_list[0..2])
+          3.times do
+            rand_list.delete_at(0)
+          end
+        end
+      end
+      
+    end
+    
+  end
+  groups.each do |group|
+    p group
+  end
+end
+
+
+acct_groups_2(cohort)
 
 
 
+=begin
+•What was the most interesting and most difficult part of this challenge?
 
+For both it was definitely all the nesting I did.  Perhaps there is a way for me to further refactor, but I became too burnt out to look for one.  I did do some refactor to make what was there more readable.
 
+•Do you feel you are improving in your ability to write pseudocode and break the problem down?
 
+I think so.  It is a bit weird but thinking about it in English as though you  were explaining a process step by step really breaks it down in a way your mind can understand.
 
+•Was your approach for automating this task a good solution? What could have made it even better?
 
+Unsure what this question is for?  If by automating you mean, creating this code to create accountability groups, then I think it was a decent solution.  Not quite MVP, but far from 'perfect' or high standards.  Going through the docs and looking for specialized methods would probably cut down a lot of this code.
+
+•What data structure did you decide to store the accountability groups in and why?
+
+I stuck to arrays because it was more familiar and easier to work with.  I would have had to found out a way to create several keys of an unknown quantity to store all of the groups. That would have probably been more challenging and time consuming.
+
+•What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+
+No, not this time.  I will definitely keep looking for more.  I did use delete_at in both solutions however.  It simplified the process a bit, but not as much as I was hoping.
+
+=end
 
 
 
