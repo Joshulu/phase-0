@@ -68,6 +68,7 @@ to pass the tests)
 # ****spelling error, entire code now passes tests****used 'seperate' not 'separate'
 =begin
 def separate_comma(any_int)
+  
   int_s = any_int.to_s
   int_arr = int_s.split(//)
   counter = 4
