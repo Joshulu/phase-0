@@ -1,16 +1,20 @@
  // JavaScript Variables and Objects
 
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself] on this challenge.
 
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
-
+// secretNumber = 0
+secretNumber = 7;
+// password = ""
+password = "just open the door";
+// allowedIn = true
+allowedIn = false;
+// members = 1
+// members = []
+// members = ["John"]
+members = ["John", 0, 0, "Mary"];
 
 // __________________________________________
 
