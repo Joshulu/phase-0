@@ -6,15 +6,15 @@
 // Write your code below.
 
 // secretNumber = 0
-secretNumber = 7;
+var secretNumber = 7;
 // password = ""
-password = "just open the door";
+var password = "just open the door";
 // allowedIn = true
-allowedIn = false;
+var allowedIn = false;
 // members = 1
 // members = []
 // members = ["John"]
-members = ["John", 0, 0, "Mary"];
+var members = ["John", 0, 0, "Mary"];
 
 // __________________________________________
 
