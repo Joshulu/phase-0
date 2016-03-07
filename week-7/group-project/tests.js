@@ -1,4 +1,73 @@
 // Add the finished solution here when you receive it.
+// Refactored Solution
+
+// function Calculate(array) {
+//   this.array = array;
+
+//   this.sum = function() {
+//     var sum = 0;
+//     for (var i in this.array) {
+//         sum += this.array[i];
+//     }
+//     return sum;
+//   }
+
+//   this.mean = function() {
+//     var count = this.array.length;
+//     var result = this.sum()/count;
+//     return result;
+//   }
+
+//   this.median = function() {
+//     var result;
+//     var count = this.array.length;
+//     this.array.sort();
+//     if (count % 2 == 1) {
+//         var middleIndex = Math.floor(count/2);
+//         result = this.array[middleIndex];
+//     } else {
+//         var firstMiddleIndex = (count/2)-1;
+//         var secondMiddleIndex = count/2;
+//         result = (this.array[firstMiddleIndex]+this.array[secondMiddleIndex])/2;
+//     }
+//     return result;
+//   }
+// }
+// __________________________________________
+
+// user wants to sum a list of numbers
+function sum(numArr) {
+    var result = 0;
+    for (var counter = 0; counter < numArr.length; counter++) {
+        result += numArr[counter];
+    }
+    return result;
+}
+
+// user wants to find the average of a list of numbers
+function mean(numArr) {
+    var sum = 0;
+    for (var counter = 0; counter < numArr.length; counter++) {
+        sum += numArr[counter];
+    }
+    return sum/numArr.length;
+}
+
+// user wants to find the most common number in a list
+function median(numArr) {
+    if (numArr.length % 2 == 1) {
+        var middleIndex = Math.floor(numArr.length/2);
+        return numArr[middleIndex];
+    }
+    else {
+        var firstMiddleIndex = numArr.length/2-1;
+        var secondMiddleIndex = numArr.length/2;
+        return (numArr[firstMiddleIndex]+numArr[secondMiddleIndex])/2;
+    }
+}
+
+
+
 // __________________________________________
 // Tests:  Do not alter code below this line.
 
