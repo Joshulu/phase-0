@@ -1,4 +1,4 @@
-![APMT](imgs/Apartments.png)
+![APMT](./imgs/Apartments.PNG)
 -
 One to one relationship because we mostly want to access the rent information,
 
@@ -6,7 +6,7 @@ but also, not every apartment will have a renter occupying it.
 
 -
 
-![Grocery](imgs/grocery.png)
+![Grocery](./imgs/grocery.PNG)
 -
 
 •What is a one-to-one database?
