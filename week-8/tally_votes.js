@@ -1,7 +1,7 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
 // I worked on this challenge with: Saralis Rivera
-// This challenge took me [#] hours.
+// This challenge took me [5] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -242,11 +242,28 @@ console.log(officers);
 // __________________________________________
 // Reflection
 
-questions:
+/*
 •What did you learn about iterating over nested objects in JavaScript?
+
+That it isn't as easy as it seems.  commented out, above, we tried accessing nested
+data, but it wouldn't work the way we thought it would.  We tried everything we could
+think of from educated guesses to random changes just to try to get something working.
+We weren't able to get it to work how we wanted, but we did get it to work in some way.
+
 •Were you able to find useful methods to help you with this?
+
+Certainly splice helped a lot.  We couldn't find much else as JavaScript is docs
+aren't as easy to navigate as the Ruby docs.  And things are named in a way I'd be
+familiar with in Ruby, but in JavaScript it works differently.
+
 •What concepts were solidified in the process of working through this challenge?
 
+Giving up is sometimes the best thing to do.  Well, giving up on a path you've taken
+to try a different approach.  We got stuck in a rut of hmmmmmmm and couldn't get out
+of it.  This challenge took a long time for us because we were trying to get it
+perfectly how we wanted it, even though it was a lost cause.
+
+*/
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
