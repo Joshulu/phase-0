@@ -63,3 +63,27 @@ in_words(45)
 
 
 # Reflection
+
+=begin
+
+•What concepts did you review in this challenge?
+
+We went through a lot of flow control ideas, as you can see we still do have
+nested if statements.  We also worked on modifying data into other data, numbers
+to strings to arrays and back.  But our final solution was able to stray away
+from messy conversions.
+
+•What is still confusing to you about Ruby?
+
+Nothing is too confusing at the moment.  I get the concepts behind the challenges.
+I'm worried I'm not getting the full depth of it, but it's reassuring to come to
+a point where your code looks nice and functions well.
+
+•What are you going to study to get more prepared for Phase 1?
+
+General object oriented design probably, a little more JavaScript.  Refresh HTML
+and CSS.
+
+=end
+
+
