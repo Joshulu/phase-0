@@ -62,13 +62,22 @@ Reflection
 
 •What is jQuery?
 
+It's a library for JavaScript.  Basically that means that extra options have been
+added to JavaScript when you use jQuery.  It can: handle events, animations and more
+at run time, with a more user friendly approach I find.
 
 •What does jQuery do for you?
 
+With it, I can make things happen dynamically, like changing images, changing
+html and CSS elements on the page.  
 
 •What did you learn about the DOM while working on this challenge?
 
-
+I don't think I learned anything new about the DOM...(Googling a refresher)...
+I guess I learned how to manipulate it in a streamlined way.  Theoretically,
+I  don't need CSS stylesheets, I could just use jQuery/JavaScript to do the
+styling.  More specifically, I can have actual code snippets do things within
+the webpage.
 
 
 
